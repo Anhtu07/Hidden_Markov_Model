@@ -1,0 +1,80 @@
+\providecommand{\bysame}{\leavevmode\hbox to3em{\hrulefill}\thinspace}
+\providecommand{\MR}{\relax\ifhmode\unskip\space\fi MR }
+% \MRhref is called by the amsart/book/proc definition of \MR.
+\providecommand{\MRhref}[2]{%
+  \href{http://www.ams.org/mathscinet-getitem?mr=#1}{#2}
+}
+\providecommand{\href}[2]{#2}
+\begin{thebibliography}{10}
+
+\bibitem{sachhd1}
+\emph{Hướng dẫn kỹ thuật phòng trừ bệnh vàng lùn, lùn xoắn
+  lá, lùn sọc đen hại lúa}, Công ty cổ phần Bảo vệ thực
+  vật I Trung ương, 2010.
+
+\bibitem{sachhd2}
+\emph{Sổ tay quy trình kĩ thuật quản lí rầy bệnh lùn sọc đen
+  hại lúa}, Sở Nông nghiệp và Phát triển nông thôn, Chi cục
+  bảo vệ thực vật Nam Định,, 2012.
+
+\bibitem{tltk12}
+D.~Vanbergue A.~Drogoul and T.Meurisse, \emph{Multi-agent based simulation:
+  Where are the agents?}, Lecture Notes in Computer Science, Springer Press
+  \textbf{2581} (2003), 43-- 49.
+
+\bibitem{tltk11}
+A.~Drogoul et~al., \emph{Gama simulation platform,
+  http://code.google.com/p/gama-platform/}.
+
+\bibitem{Grimm2006115}
+Volker Grimm, Uta Berger, Finn Bastiansen, Sigrunn Eliassen, Vincent Ginot,
+  Jarl Giske, John Goss-Custard, Tamara Grand, Simone~K. Heinz, Geir Huse,
+  Andreas Huth, Jane~U. Jepsen, Christian Jørgensen, Wolf~M. Mooij, Birgit
+  Müller, Guy Pe’er, Cyril Piou, Steven~F. Railsback, Andrew~M. Robbins,
+  Martha~M. Robbins, Eva Rossmanith, Nadja Rüger, Espen Strand, Sami Souissi,
+  Richard~A. Stillman, Rune Vabø, Ute Visser, and Donald~L. DeAngelis, \emph{A
+  standard protocol for describing individual-based and agent-based models},
+  2006, pp.~115 -- 126.
+
+\bibitem{Grimm20102760}
+Volker Grimm, Uta Berger, Donald~L. DeAngelis, J.~Gary Polhill, Jarl Giske, and
+  Steven~F. Railsback, \emph{The odd protocol: A review and first update},
+  2010, pp.~2760 -- 2768.
+
+\bibitem{grim05}
+Volker Grimm and Steven~F. Railsback, \emph{Individual-based modeling and
+  ecology}, 2005, pp.~115 -- 116.
+
+\bibitem{tltk10}
+Trần~Hữu Hiệp, \emph{Định danh gạo việt,
+  www.sggp.org.vn/theodongthoisu/2015/1/373353/}.
+
+\bibitem{tltk8}
+N.V.~Toan H.V.~Chien, M.M.~Escalada, \emph{An giang province launches
+  ecological engineering with street parade and flowerplanting},
+  http://ricehoppers.net/2011/04/an-giang-province-launches-ecological-engineering-with-street-parade-and-flower-planting/
+  (2011).
+
+\bibitem{tltk7}
+B.~Hardy K.L.~Heong, \emph{Planthoppers: new threats to the sustainability of
+  intensive rice production systems in asia}, Los Baños (Philippines):
+  International Rice Research Institute (IRRI) (2009).
+
+\bibitem{tltk9}
+Hứa Quyết~Chiến Võ~Đăng Lân, \emph{Khảo sát sự hạn chế phát
+  triển bệnh vàng lùn trên cây lúa của chế phẩm exin r},
+  (2012).
+
+\bibitem{tltk13}
+T.T.~Vo V.G.N.~Nguyen, H.X.~Huynh and A.~Drogoul, \emph{On weather affecting to
+  brown plant hopper invasion using an agent-based model, proceedings of the
+  international conference on management of emergent digital ecosystems},
+  MEDES2011, ACM Press (2011), 150--157.
+
+\bibitem{nngv}
+Nguyen Nhi~Gia Vinh, \emph{Designing multi-scale models to support
+  environmental decision: Application to the control of brown plant hopper
+  invasions in the mekong delta (vietnam)}, Ph.D. thesis, University of Paris
+  6, Oct. 31st, 2013.
+
+\end{thebibliography}
