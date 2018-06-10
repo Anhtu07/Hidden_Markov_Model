@@ -1,0 +1,19 @@
+\BOOKMARK [0][-]{chapter*.1}{Mở đầu}{}% 1
+\BOOKMARK [0][-]{chapter.1}{Mô Hình Markov Ẩn}{}% 2
+\BOOKMARK [1][-]{section.1.1}{Mô Hình Markov Ẩn}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.2}{Ba bài toán cơ bản của HMM}{chapter.1}% 4
+\BOOKMARK [2][-]{subsection.1.2.1}{Bài toán 1}{section.1.2}% 5
+\BOOKMARK [2][-]{subsection.1.2.2}{Bài toán 2}{section.1.2}% 6
+\BOOKMARK [2][-]{subsection.1.2.3}{Bài toán 3}{section.1.2}% 7
+\BOOKMARK [0][-]{chapter.2}{Mô Hình Gaussian Hỗn Hợp Kết Hợp Markov Ẩn}{}% 8
+\BOOKMARK [1][-]{section.2.1}{Mô Hình Gaussian Hỗn Hợp}{chapter.2}% 9
+\BOOKMARK [2][-]{subsection.2.1.1}{Hợp Lí Cực Đại}{section.2.1}% 10
+\BOOKMARK [2][-]{subsection.2.1.2}{Cực Đại Kì Vọng}{section.2.1}% 11
+\BOOKMARK [1][-]{section.2.2}{Mô Hình Gaussian Hỗn Hợp Kết Hợp Markov Ẩn}{chapter.2}% 12
+\BOOKMARK [0][-]{chapter.3}{Âm Thanh - Thuật Toán MFCC}{}% 13
+\BOOKMARK [1][-]{section.3.1}{Phường Pháp MFCC}{chapter.3}% 14
+\BOOKMARK [1][-]{section.3.2}{Biến đổi Cosin}{chapter.3}% 15
+\BOOKMARK [0][-]{chapter.4}{Mô Hình Nhận Diện Từ Đơn}{}% 16
+\BOOKMARK [0][-]{chapter.5}{Kết Quả Thực Nghiệm}{}% 17
+\BOOKMARK [0][-]{chapter.6}{Kết luận}{}% 18
+\BOOKMARK [0][-]{chapter*.3}{ Tài liệu tham khảo}{}% 19
