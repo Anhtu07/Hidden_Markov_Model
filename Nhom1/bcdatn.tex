@@ -327,7 +327,7 @@ $$p(x|z_k = 1) = \mathcal{N}(x| \mu_k, \Sigma_k)$$
 Lý do tạo ra một biến phụ $z$ như vậy là để ta có thể dễ dàng thấy được mỗi liên hệ giữa biến $z$ và các vector quan sát trên một graphical model, và sau này ta thấy rằng việc kết hợp với mô hình markov ẩn chính là việc mở rộng mô hình Gaussian hỗn hợp theo thời gian và các biến $z_i$ tương ứng với các trạng thái. Từ định nghĩa trên, ta có thể viết $p(x)$ dưới dạng sau
 $$p(x) = \sum_{z} p(z) p(x | z) = \sum_{k=1}^{K} \pi_k \mathcal{N}(x | \mu_k, \Sigma_k) $$
 Một đại lượng khác cũng rất quan trọng là xác suất có điều kiện của biến $z$ khi biết quan sát $x$. Ta kí hiệu
-$$\gamma(z_k) = p(z_k = 1| x) = \frac{\pi_k \mathcal{N}(x|\mu_k, \Sigma_k)}{\sum_{j=1}^{K} \mathcal{N}(x|\mu_j, \Sigma_j)}$$
+$$\gamma(z_k) = p(z_k = 1| x) = \frac{\pi_k \mathcal{N}(x|\mu_k, \Sigma_k)}{\sum_{j=1}^{K} \pi_k \mathcal{N}(x|\mu_j, \Sigma_j)}$$
 
 Chú ý rằng định nghĩa của biến $\gamma(z)$ rất giống với định nghĩa của biến $\gamma_t(i)$ dùng để chỉ sác xuất của mô hình ở một thái trạng thái nào đó khi biết quan sát đã được miêu tả trong chương 1. \\
 Chúng ta có thể hiểu rằng $\pi_k$ là xác suất tiên nghiệm của $z_k = 1$ và $\gamma(z_k)$ là xác suất hậu nghiệm khi mà ta đã nhìn thấy được một quan sát $x$.
@@ -344,7 +344,7 @@ hay
 \end{center}
 $$\sum_{n=1}^{N} \gamma(z_{nk}) \ \Sigma_{k}^{-1}(x_n - \mu_k)$$
 Nhân hai vế với $\Sigma_k$, ta có :
-$$\mu_k = \frac{1}{N_k} \sum_{n=1}^{N} \gamma(z_{nk} \ x_n$$
+$$\mu_k = \frac{1}{N_k} \sum_{n=1}^{N} \gamma(z_{nk)} \ x_n$$
 trong đó $N_k$ được định nghĩa như sau :
 $$N_k = \sum_{n=1}^{N} \gamma(z_{nk})$$
 Chúng ta có thể hiểu $N_k$ như là số các điểm được phân loại vào phân cụm $k$. Chú ý rằng từ công thức trên, kì vọng $\mu_k$ của thành phần Gaussian thứ $k$ được tính bằng trung bình có trọng số của những điểm trong dữ liệu, với trọng số được tính phụ thuộc vào xác suất hậu nghiệm $\gamma(z_{nk})$. \\
